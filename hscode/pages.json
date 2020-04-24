@@ -1,0 +1,301 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationBarBackgroundColor": "#1676fe",
+				"navigationBarTextStyle":"white"
+				
+			}
+		}
+	    ,
+		{
+		    "path" : "pages/cross/cross",
+		    "style" : {
+				"navigationBarTitleText": "跨境关务",
+				"navigationBarBackgroundColor": "#1676fe",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+            "path" : "pages/lock/lock",
+            "style" : {
+				"navigationBarTitleText": "委托制单",
+				"navigationBarBackgroundColor": "#1676fe",
+				"navigationBarTextStyle":"white"
+			}
+        }
+		// "navigationBarBackgroundColor": "#009cff",
+        ,{
+            "path" : "pages/my/my",
+            "style" : {
+				"navigationBarTitleText": "个人中心",
+				"navigationBarBackgroundColor": "#1676fe",
+				"navigationBarTextStyle":"white"
+			}
+        }
+        ,{
+            "path" : "pages/query/query",
+   //          "style" : {
+			// 	"navigationBarTitleText": "查询记录"
+			// }
+			"style": {
+			                // "navigationBarBackgroundColor": "#00c170",
+							"navigationBarTitleText": "查询记录",
+							"navigationBarBackgroundColor": "#1676fe",
+							"navigationBarTextStyle":"white",
+							"enablePullDownRefresh":true,
+							"onReachBottomDistance":50
+			                // "app-plus": {
+			                //     "bounce": "none",
+			                //     "titleNView": {
+			                //         "buttons": [ 
+			                //             {
+			                //                 "text": "管理", 
+			                //                 "fontSize":"16",
+			                //                 "float": "right",
+			                //                 "color":"#333"
+			                //             }
+			                //         ]
+			                      
+			                //     }
+			                // }
+			            }
+        }
+        ,{
+            "path" : "pages/jilujieguo/jilujieguo",
+            "style" : {
+				"navigationBarTitleText": "查询记录",
+				"navigationBarBackgroundColor": "#1676fe",
+				"navigationBarTextStyle":"white"
+			}
+        }
+		,{
+		    "path" : "pages/codeQuery/codeQuery",
+		    "style" : {
+				"navigationBarTitleText": "查询",
+				"navigationBarBackgroundColor": "#2198F2",
+				"navigationBarTextStyle":"white"
+			}
+		}
+        ,{
+            "path" : "pages/chaxunjieguo/chaxunjieguo",
+            "style" : {
+				"navigationBarTitleText": "查询结果",
+				"navigationBarBackgroundColor": "#1676fe",
+				"navigationBarTextStyle":"white"
+			}
+        }
+        ,{
+            "path" : "pages/miaoshuchaxun/miaoshuchaxun",
+            "style" : {
+				"navigationBarTitleText": "商品描述查询",
+				"navigationBarBackgroundColor": "#2198F2",
+				"navigationBarTextStyle":"white"
+			}
+        }
+        ,{
+            "path" : "pages/zhuanyi/zhuanyi",
+            "style" : {
+				"navigationBarTitleText": "转译查询",
+				"navigationBarBackgroundColor": "#2198F2",
+				"navigationBarTextStyle":"white"
+			}
+        }
+        ,{
+            "path" : "pages/setting/setting",
+            "style" : {
+				"navigationBarTitleText": "修改信息",
+				"navigationBarBackgroundColor": "#1676fe",
+				"navigationBarTextStyle":"white"
+			}
+        }
+        ,{
+            "path" : "pages/order/order",
+            "style" : {
+				"navigationBarTitleText": "订单信息",
+				"navigationBarBackgroundColor": "#1676fe",
+				"navigationBarTextStyle":"white",
+				"enablePullDownRefresh":true,
+				"onReachBottomDistance":50
+			}
+        }
+        ,{
+            "path" : "pages/orderdetail/orderdetail",
+            "style" : {
+				"navigationBarTitleText": "订单详情",
+				"navigationBarBackgroundColor": "#1676fe",
+				"navigationBarTextStyle":"white"
+			}
+        }
+        ,{
+            "path" : "pages/shoucang/shoucang",
+            "style" : {
+				"navigationBarTitleText": "收藏",
+				"navigationBarBackgroundColor": "#1676fe",
+				"navigationBarTextStyle":"white",
+				"enablePullDownRefresh":true,
+				"onReachBottomDistance":50
+			}
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" : {
+				"navigationBarTitleText": "登录",
+				"navigationBarBackgroundColor": "#1676fe",
+				"navigationBarTextStyle":"white"
+			}
+        }
+        ,{
+            "path" : "pages/register/register",
+            "style" : {
+				"navigationBarTitleText": "注册",
+				"navigationBarBackgroundColor": "#1676fe",
+				"navigationBarTextStyle":"white"
+			}
+        }
+        ,{
+            "path" : "pages/teggs/teggs",
+            "style" : {
+				"navigationBarTitleText": "TEGGS",
+				"navigationBarBackgroundColor": "#1676fe",
+				"navigationBarTextStyle":"white"
+			}
+        }
+        ,{
+            "path" : "pages/renzheng/renzheng",
+            "style" : {
+				"navigationBarTitleText": "认证",
+				"navigationBarBackgroundColor": "#1676fe",
+				"navigationBarTextStyle":"white"
+			}
+        }
+        ,{
+            "path" : "pages/account/account",
+            "style" : {
+				"navigationBarTitleText": "账户",
+				"navigationBarBackgroundColor": "#1676fe",
+				"navigationBarTextStyle":"white"
+			}
+        }
+        ,{
+            "path" : "pages/moreNum/moreNum",
+            "style" : {
+				"navigationBarTitleText": "续费",
+				"navigationBarBackgroundColor": "#1676fe",
+				"navigationBarTextStyle":"white"
+			}
+        }
+        ,{
+            "path" : "pages/yitihua/yitihua",
+            "style" : {
+				"navigationBarTitleText": "一体化查询记录",
+				"navigationBarBackgroundColor": "#1676fe",
+				"navigationBarTextStyle":"white",
+				"enablePullDownRefresh":true,
+				"onReachBottomDistance":50
+			}
+        }
+        ,{
+            "path" : "pages/yitihuadetail/yitihuadetail",
+            "style" : {
+				"navigationBarTitleText": "查询记录详情",
+				"navigationBarBackgroundColor": "#1676fe",
+				"navigationBarTextStyle":"white"
+			}
+        }
+        ,{
+            "path" : "pages/yonghuxieyi/yonghuxieyi",
+            "style" : {
+				"navigationBarTitleText": "用户协议",
+				"navigationBarBackgroundColor": "#1676fe",
+				"navigationBarTextStyle":"white"
+			}
+        }
+        ,{
+            "path" : "pages/yinsizhengce/yinsizhengce",
+            "style" : {
+				"navigationBarTitleText": "隐私政策",
+				"navigationBarBackgroundColor": "#1676fe",
+				"navigationBarTextStyle":"white"
+			}
+        }
+        ,{
+            "path" : "pages/aboutUS/aboutUS",
+            "style" : {
+				"navigationBarTitleText": "关于我们",
+				"navigationBarBackgroundColor": "#1676fe",
+				"navigationBarTextStyle":"white"
+			}
+        }
+        ,{
+            "path" : "pages/weituidetail/weituidetail",
+            "style" : {
+				"navigationBarTitleText": "委托制单详情",
+				"navigationBarBackgroundColor": "#1676fe",
+				"navigationBarTextStyle":"white"
+			}
+        }
+        ,{
+            "path" : "pages/details/details",
+            "style" : {
+				"navigationBarTitleText": "详情信息",
+				"navigationBarBackgroundColor": "#1676fe",
+				"navigationBarTextStyle":"white"
+			}
+        }
+        ,{
+            "path" : "pages/forget/forget",
+            "style" : {
+				"navigationBarTitleText": "忘记密码",
+				"navigationBarBackgroundColor": "#1676fe",
+				"navigationBarTextStyle":"white"
+			}
+        }
+        ,{
+            "path" : "pages/set/set",
+            "style" : {
+				"navigationBarTitleText": "设置",
+				"navigationBarBackgroundColor": "#1676fe",
+				"navigationBarTextStyle":"white"
+			}
+        }
+    ],
+	"tabBar":{
+	    "color":"#7A7E83",
+	    "selectedColor": "#2198F2",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+	        "iconPath": "static/image/sy1.png",
+	        "selectedIconPath": "static/image/sy0.png",
+	        "text": "首页"			
+	    }, {
+	        "pagePath": "pages/cross/cross",
+	        "iconPath": "static/image/kj1.png",
+	        "selectedIconPath": "static/image/kj0.png",
+	        "text": "跨境关务"
+	    },
+		{
+		    "pagePath": "pages/lock/lock",
+		    "iconPath": "static/image/suo1.png",
+		    "selectedIconPath": "static/image/suo0.png",
+		    "text": "委托制单"
+		},
+		{
+		    "pagePath": "pages/my/my",
+		    "iconPath": "static/image/gr1.png",
+		    "selectedIconPath": "static/image/gr0.png",
+		    "text": "个人中心"
+		}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
